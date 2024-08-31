@@ -12,7 +12,7 @@ class Person(models.Model):
     name = models.CharField(max_length=100)
     age = models.IntegerField()
     sex = models.CharField(max_length=100, choices=sex_choices)
-    created_at = models.DateField(auto_now_add=True)
+    created_at = models.DateField()
 
     def __str__(self):
         return self.name
