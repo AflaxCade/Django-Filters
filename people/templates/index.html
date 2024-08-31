@@ -30,6 +30,39 @@
     </nav>
 
     <div class="container">
+        <br><br>
+        <form method="get">
+            <div class="row">
+                <div class="form-group col-md-2">
+                    <label for="id">ID</label>
+                    {{ filter.form.id }}
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="name">Name</label>
+                    {{ filter.form.name }}
+                </div>
+                <!-- Age Filter -->
+                <div class="form-group col-md-2">
+                    <label for="age">Age</label>
+                    {{ filter.form.age }}
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="gender">Sex</label>
+                    {{ filter.form.sex }}
+                </div>
+                <!-- Date Filter -->
+                <div class="form-group col-md-2">
+                    <label for="created_at">Date</label>
+                    {{ filter.form.created_at }}
+                </div>
+                <!-- Submit Button -->
+                <div class="form-group col-md-2">
+                    <label for="submit"></label>
+                    <button type="submit" class="btn btn-primary" style="margin-top: 23px;">Filter</button>
+                </div>
+            </div>
+        </form>
+
         <div class="table-responsive mt-3">
             <h1>People List</h1>
             <table class="table table-hover mt-3">
