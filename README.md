@@ -4,6 +4,8 @@ A Django-based web application to manage a list of people with functionality to 
 
 Django Filters is a reusable Django application that allows developers to create user-friendly interfaces for filtering Django querysets. This application provides a powerful and flexible way to create custom filters that can be used to narrow down the results displayed on a webpage based on specific criteria defined by the user.
 
+![Django Filters Snapshot](https://github.com/AflaxCade/Django-Filters/blob/main/Screenshot.PNG)
+
 ## Table of Contents
 
 - [Features](#features)
